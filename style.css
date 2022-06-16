@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.body{
+  background-color:#492D5E ;
+}
+
+.container{
+  margin: 3rem;
+  display: flex;
+}
+
+.div-left{
+  width: 40%;
+  height: 36rem;
+  background-color: #E4E1E8;
+  border-radius: 0.5rem;
+}
+
+.span0{
+  color: gray;
+}
+
+.div-right{
+  width: 60%;
+  height: 36rem;
+}
+.div-right .figure{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.div-right .figure img{
+  width: 100%;
+  height: 36rem;
+}
+
+.div-content-img{
+  position: absolute;
+  width: 55.7%;
+  height: 36rem;
+  background-color: violet;
+  opacity: 0.5;
+  margin-top: -36rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.content{
+  position: relative;
+  margin-top: -20rem;
+  text-align: center;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content .span1{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.content .span2{
+  font-size: 1.2rem;
+}
+
+
+.div-left-content{
+  margin: 2rem;
+}
+  
+.div-form{
+  margin: 5rem 2.5rem;
+  text-align: center;
+}
+
+.form{
+  margin-top: 1.5rem;
+  
+}
+
+.form input{
+  margin-top: 2.5rem;
+  width: 100%;
+  font-size: 0.9rem;
+  border: none;
+  background-color: #E4E1E8;
+  border-bottom:#C9C6CD solid;
+  outline: none;
+}
+
+.button{
+  margin-top: 5rem;
+}
+
+.button button{
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: #583672;
+  color: white;
+  cursor: pointer;
+}
